@@ -1,0 +1,16 @@
+.input-area {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin-left: auto;    /* 画面の中央に */
+  margin-right: auto;   /* 画面の中央に */
+  background-color: rgb(89, 214, 89);
+}
+
+.output-area {
+  width: 300px;
+  text-align: center;
+  margin-left: auto;    /* 画面の中央に */
+  margin-right: auto;   /* 画面の中央に */
+  background-color: rgb(58, 164, 225);
+}
