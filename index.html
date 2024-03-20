@@ -1,20 +1,53 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>"Test" Gators Game!</title>
-  <link rel="stylesheet" href="sample.css">
-</head>
-<body>
-  <div class="input-area">
-    <input type="text" id="number"/>
-    <button id="button">ワニ🐊放出!</button>
-  </div>
-  <div class="output-area">
-    🍎これは最終日プレゼンではない TEST🍏
-  </div>
 
-  <script type="text/javascript" src="sample.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No.21-FND25 Presentation</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <h1 class="title-name">No21.Presentation -FND25</h1>
+    <h2 >
+      <a id="time">現在時刻</a>
+      <button id="start" class="start-button">プレゼン開始</button>
+      <a id="pass-time" class="pass-area">--:--:--</a>
+    </h2>
+    <div class="tab-wrap">
+      <input id="TAB-01" type="radio" name="TAB" class="tab-switch" checked="checked" />
+      <label class="tab-label" for="TAB-01">１．自己紹介</label>
+      <div class="tab-content">
+        <p class="inner-0">
+          (1)所属 : TYから参加<br>
+          (2)動機 : '24.1月からTYデジタル変革推進部に異動、スキル習得<br>
+          (3)最近の趣味 :<br>
+          　　「🚗ドライブ旅行，洗車」「🍆家庭菜園」「💡節約」
+        </p>
+        <button class="button" id="button-1"> Click </button>
+        <p class="inner-1">やってみたことは...</p>
+      </div>
+      <input id="TAB-02" type="radio" name="TAB" class="tab-switch" />
+      <label class="tab-label" for="TAB-02">２．アプリ</label>
+      <div class="tab-content">🎃🍆🥒野菜収穫カウンター🥔🍅🥬
+        <p class="make-area">
+          　収穫する野菜を入力してください:　
+          <input class="input-area" type="text" id="vegetable">
+          <button class="m-button" id="make-button"> Click here!<br>(create a counter) </button>
+        </p>
+      </div>
+      <input id="TAB-03" type="radio" name="TAB" class="tab-switch" />
+      <label class="tab-label" for="TAB-03">３．完走！(感想)</label>
+      <div class="tab-content">
+        <p class="inner-2" id="day1-5">(1)day1 - 5:　　　　　...Click...</p>
+        <p class="inner-2" id="day6-10">(2)day6 -10:　　　　　...Click...</p>
+        <p class="inner-2" id="day11-15">(3)day11-15:　　　　　...Click...</p>
+        <p class="inner-2" id="day16-20">(4)day16-20:　　　　　...Click...</p>
+        <p class="inner-3" id="thank-you">...Click...</div></p>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+  
 </html>
